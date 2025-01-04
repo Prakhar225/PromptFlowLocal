@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "promptflowlocal"
+version = "0.1.0"
+description = "A variation of the official promptflow quick stausing locally hosted LLMs instead of OpenAI API."
+authors = ["Prakhar Malviya <prakhar1.0.0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13.dev0 || >=3.14.dev0,<4.0"
+promptflow = "^1.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

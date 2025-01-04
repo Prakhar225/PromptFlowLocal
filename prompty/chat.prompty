@@ -1,0 +1,24 @@
+---
+name: Minimal Chat
+model:
+  api: chat
+  configuration:
+    type: openai
+    model: ${env:LOCAL_MODEL}
+    api_key: ${env:LOCAL_API_KEY}
+    base_url: ${env:LOCAL_BASE_URL}
+  parameters:
+    temperature: 0.2
+    max_tokens: 1024
+inputs:
+  question:
+    type: string
+sample:
+  question: "What is Prompt flow?"
+---
+
+system:
+You are a helpful assistant.
+
+user:
+{{question}}
