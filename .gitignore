@@ -5,3 +5,4 @@
 */.promptflow/flow.log
 */.promptflow/flow.output.json
 */__pycache__
+.vscode
