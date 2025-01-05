@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13.dev0 || >=3.14.dev0,<4.0"
 promptflow = "^1.16.2"
+promptflow-tools = "^1.4.0"
+bs4 = "^0.0.2"
 
 
 [build-system]

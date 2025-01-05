@@ -1,4 +1,7 @@
 .promptflow/flow.detail.json
 .promptflow/flow.log
 .promptflow/flow.output.json
+*/.promptflow/flow.detail.json
+*/.promptflow/flow.log
+*/.promptflow/flow.output.json
 */__pycache__
